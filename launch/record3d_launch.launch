@@ -1,0 +1,6 @@
+<launch>
+
+  <!-- Launch the record3d_ros.py node -->
+  <node name="record3d_ros" pkg="record3d_stream" type="record3d_ros.py" output="screen"/>
+
+</launch>
