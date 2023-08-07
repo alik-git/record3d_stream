@@ -16,8 +16,8 @@ class Record3DROS:
         self.depth_image_pub = rospy.Publisher("record3d/depth_image_raw", Image, queue_size=10)
         self.event = Event()
         self.session = None
-        self.DEVICE_TYPE__TRUEDEPTH = 0
-        self.DEVICE_TYPE__LIDAR = 1
+        self.DEVICE_TYPE_TRUEDEPTH = 0
+        self.DEVICE_TYPE_LIDAR = 1
         # ... rest of your initialization code ...
 
     def on_new_frame(self):
